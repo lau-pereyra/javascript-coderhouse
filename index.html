@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Primera Pre-Entrega</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7728f80860.js" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script defer src="./js/variables.js"></script>
+    <script defer src="./js/index.js"></script>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head> 
+<body>
+    <header>
+        <nav>
+            <div class="stylo">
+                <img src="./images/STYLO.png" alt="">
+            </div>
+            <div class="busqueda">
+                <input type="text" placeholder="Puedes consultar por alguna prenda!" id="ConsultarProducto">
+                <a id="botonConsultar"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+            <div id="espacio">
+                <button  class="boton-compra separar"id="comprarProducto">Comprar</button>
+                <div class="icon-cart">
+                    <span id="numero-cart"></span>
+                    <img src="./images/carrito1-removebg-preview.png" alt="">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="container-ropa">
+        </div>
+        <!-- <form action="" name="formulario" id="formulario">
+            <label for="pedido">Puedes sugerirnos que traigamos algun producto!</label>
+            <input type="text" name="pedido" id="pedido">
+            <input type="submit" value="Enviar">
+        </form> -->
+        <section class="asistente">
+            <div class="asistente-text">
+                <img src="./images/bd1.png" class="robotAsistente" alt="">
+                <span>Necesitas ayuda? Soy Kal, tu asistente!</span>
+            </div>
+        </section>
+        <section>
+            <h2>Aqui podras seleccionar los productos de otra forma!</h2>
+            <div class="opciones">
+                <select id="opciones-marcas">
+                    <option></option>
+                </select>
+                <button  class="boton-compra separar"id="comprarProducto1">Comprar</button>
+        </section>
+    </main>
+    <footer>
+        <div class="logo">
+            <img src="./images/stylo.png" alt="">
+        </div>
+        <div class="footer-text">
+            <p>Marcas asociadas</p>
+        </div>
+        <div class="brands">
+            <img src="./images/adidas-logo.png" alt="">
+            <img src="./images/nike-logo.png" alt="">
+            <img src="./images/vans-logo.png" alt="">
+            <img src="./images/underarmour-logo.png" alt="">
+        </div>
+        <h2>Todos los derechos reservados.</h2>
+    </footer>
+    
+</body>
+</html>
