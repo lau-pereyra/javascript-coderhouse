@@ -254,7 +254,7 @@ fetch(url)
             const div = document.createElement("div")
             div.className = "container-product"
             div.innerHTML = ` 
-                            <img src="./images/${post.imagen}">
+                            <img src="./images/1.jpg">
                             <div class="container-text">
                             <p>${post.prendas}</p>
                             <p>${post.marcas}</p>
